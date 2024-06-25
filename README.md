@@ -20,7 +20,7 @@ README.md
 ### Instalación
 
 ## 1. Preprocesado/procesado de los datos
-Como primer paso, se realizará tanto el preprocesado como el procesado de los datos en crudo. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
+Como primer paso, la herramienta realiza tanto el preprocesado como el procesado de los datos en crudo, para tener unos valores adecuados. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
 Esta función, a su vez, contiene otras funciones que realizan las tareas necesarias. Estas tareas son:
 
 1. **Cálculo de tasa binaria** --> Transformación de los valores de throughput de Bytes a Mbits.
