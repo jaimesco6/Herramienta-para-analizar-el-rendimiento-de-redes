@@ -35,7 +35,7 @@ Esta función, a su vez, contiene otras funciones que realizan las tareas necesa
    - Banda de frecuencia
 4. Agrupar medidas por geohashes --> Las medidas se agrupan por geohashes, dependiendo de su ubicación.
 5. Ajustar ubicaciones --> el usuario debe modificar la localización de las medidas imprecisas.
-6.  División de los datos por tecnología
+6. División de los datos por tecnología
    - 5G SA
    - 5G NSA
    - 4G
