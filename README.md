@@ -4,5 +4,15 @@ Desde el comienzo de la Era Digital, la industria de las telecomunicaciones ha e
 
 Esta herramienta tiene como objetivo principal analizar y comparar el desempeño de las redes 4G  y 5G, tanto SA (Stand Alone) como NSA (Non-Stand Alone).
 
-## Instalación 
-Para 
+## Estructura del proyecto 
+```
+Herramienta
+|__ Datos
+|   |__ dataframe con los datos de las pruebas de speedtest realizadas
+|__ Notebook
+|   |__ Main.ipynb
+|__ Funciones
+|   |__ processing.py
+|   |__ results.py
+README.md
+```
