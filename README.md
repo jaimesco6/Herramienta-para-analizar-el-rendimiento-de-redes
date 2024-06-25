@@ -36,13 +36,13 @@ Esta función, a su vez, contiene otras funciones que realizan las tareas necesa
 4. **Agrupar medidas por geohashes** --> Las medidas se agrupan por geohashes, dependiendo de su ubicación.
 5. **Ajustar ubicaciones** --> el usuario debe modificar la localización de las medidas imprecisas.
 6. **División de los datos por tecnología**
-   - 5G SA
-   - 5G NSA
-   - 4G
+   - 5G SA --> df_5G_SA
+   - 5G NSA --> df_5G_NSA
+   - 4G --> df_4G
 
 ## Resultados
 Una vez se dispone de los datos en un formato adecuado, se va a proceder a realizar el análisis de los resultados, observando diferentes variables. Para hacer esto, se importan todas las funciones definidas en el fichero results.py.
 
 ### Ubicar en el mapa las medidas seleccionando el día
 Ejecutando la función create_map_from_dataframe se generá un mapa interactivo que muestra la localización de los datos para un día y tecnología determinado.
-Esta función toma dos parámetros como entrada. El primer parámetro es el dataframe de la tecnología que se quiera representar
+Esta función toma dos parámetros como entrada. El primer parámetro es el dataframe de la tecnología que se quiera representar (df_5G_SA, df_5G_NSA o df_4G) y el segundo 
