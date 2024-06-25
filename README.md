@@ -19,7 +19,7 @@ README.md
 ```
 ### Instalación
 
-## 1. Preprocesado/procesado de los datos
+## Preprocesado/procesado de los datos
 Como primer paso, la herramienta realiza tanto el preprocesado como el procesado de los datos en crudo, para tener unos valores adecuados. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
 Esta función, a su vez, contiene otras funciones que realizan las tareas necesarias. Estas tareas son:
 
@@ -39,3 +39,10 @@ Esta función, a su vez, contiene otras funciones que realizan las tareas necesa
    - 5G SA
    - 5G NSA
    - 4G
+
+## Resultados
+Una vez se dispone de los datos en un formato adecuado, se va a proceder a realizar el análisis de los resultados, observando diferentes variables. Para hacer esto, se importan todas las funciones definidas en el fichero results.py.
+
+### Ubicar en el mapa las medidas seleccionando el día
+Ejecutando la función create_map_from_dataframe se generá un mapa interactivo que muestra la localización de los datos para un día y tecnología determinado.
+Esta función toma dos parámetros como entrada. El primer parámetro es el dataframe de la tecnología que se quiera representar
