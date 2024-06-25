@@ -23,19 +23,19 @@ README.md
 Como primer paso, se realizará tanto el preprocesado como el procesado de los datos en crudo. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
 Esta función, a su vez, contiene otras funciones que realizan las tareas necesarias. Estas tareas son:
 
-1. Cálculo de tasa binaria --> Transformación de los valores de throughput de Bytes a Mbits.
-2. Creación de nuevas variables a partir de las disponibles originalmente:
+1. **Cálculo de tasa binaria** --> Transformación de los valores de throughput de Bytes a Mbits.
+2. **Creación de nuevas variables a partir de las disponibles originalmente:**
    - Dispositivo
    - Banda de frecuencia
    - Banda de frecuencia de la celda secundaria
    - Tecnología
    - GNodeB / eNodeB
-3. Detección de casos anómalos --> Detección de aquellos datos que han sido tomados de manera defectuosa.
+3. **Detección de casos anómalos** --> Detección de aquellos datos que han sido tomados de manera defectuosa.
    - CI (Cell Identifier)
    - Banda de frecuencia
-4. Agrupar medidas por geohashes --> Las medidas se agrupan por geohashes, dependiendo de su ubicación.
-5. Ajustar ubicaciones --> el usuario debe modificar la localización de las medidas imprecisas.
-6. División de los datos por tecnología
+4. **Agrupar medidas por geohashes** --> Las medidas se agrupan por geohashes, dependiendo de su ubicación.
+5. **Ajustar ubicaciones** --> el usuario debe modificar la localización de las medidas imprecisas.
+6. **División de los datos por tecnología**
    - 5G SA
    - 5G NSA
    - 4G
