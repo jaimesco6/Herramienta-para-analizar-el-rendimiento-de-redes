@@ -30,7 +30,7 @@ Para poder utilizar la herramienta hay que realizar una serie de pasos previos, 
    ```
 3. Accedemos al directorio donde se encuentra en repositorio:
    ```
-   cd Herramienta
+   cd Herramienta-para-analizar-el-rendimiento-de-redes/Herramienta
    ```
 5. Accedemos al notebook que representa la interfaz de la herramienta:
    ```
