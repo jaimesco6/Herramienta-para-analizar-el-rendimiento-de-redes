@@ -26,9 +26,18 @@ Para poder utilizar la herramienta hay que realizar una serie de pasos previos, 
    ```
 2. Clonal este repositorio:
    ```
-   conda create --name herramienta_speedtest python=3.10
-   conda activate herramienta_speedtest
+   git clone https://github.com/jaimesco6/Herramienta-para-analizar-el-rendimiento-de-redes
    ```
+3. Accedemos al directorio donde se encuentra en repositorio:
+   ```
+   cd Herramienta
+   ```
+5. Accedemos al notebook que representa la interfaz de la herramienta:
+   ```
+   jupyter notebook Main.ipynb
+   ```
+7. Una vez dentro, simplemente hay que introducir un fichero .csv que contenga datos de pruebas de speedtest realizadas para 5G SA y 4G y otro que contenga medidas de 5G SA. A continuación, se podrá utilizar la herramienta ejecutando las celdas del notebook y ajustando los parámetros de entrada de las funciones.
+   
 ## Preprocesado/procesado de los datos
 Como primer paso, la herramienta realiza tanto el preprocesado como el procesado de los datos en crudo, para tener unos valores adecuados. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
 Esta función, a su vez, contiene otras funciones que realizan las tareas necesarias. Estas tareas son:
