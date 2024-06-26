@@ -8,10 +8,9 @@ Esta herramienta tiene como objetivo principal analizar y comparar el desempeño
 ## Estructura del proyecto 
 ```
 Herramienta
-|__ dataframes
-|   |__ dataframe con los datos de las pruebas de speedtest realizadas
-|__ Notebook
-|   |__ Main.ipynb
+|__ Dataframes
+|   |__ dataframes con los datos de las pruebas de speedtest realizadas. uno debe contener datos de 5G SA y 4G y el otro de 5G NSA.
+|__ Main.ipynb
 |__ Funciones
 |   |__ processing.py
 |   |__ results.py
