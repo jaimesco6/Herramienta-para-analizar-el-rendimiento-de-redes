@@ -17,8 +17,18 @@ Herramienta
 |   |__ results.py
 README.md
 ```
-### Instalación
-
+## Instalación
+Para poder utilizar la herramienta hay que realizar una serie de pasos previos, explicados a continuación.
+1. Desde la terminal de anaconda, crear un nuevo entorno y activarlo:
+   ```
+   conda create --name herramienta_speedtest python=3.10
+   conda activate herramienta_speedtest
+   ```
+2. Clonal este repositorio:
+   ```
+   conda create --name herramienta_speedtest python=3.10
+   conda activate herramienta_speedtest
+   ```
 ## Preprocesado/procesado de los datos
 Como primer paso, la herramienta realiza tanto el preprocesado como el procesado de los datos en crudo, para tener unos valores adecuados. Para ello, debe ejecutarse la función llamada function_processing del fichero processing.py.
 Esta función, a su vez, contiene otras funciones que realizan las tareas necesarias. Estas tareas son:
