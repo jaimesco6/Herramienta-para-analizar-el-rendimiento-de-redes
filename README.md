@@ -8,7 +8,7 @@ Esta herramienta tiene como objetivo principal analizar y comparar el desempeño
 ## Estructura del proyecto 
 ```
 Herramienta
-|__ Datos
+|__ dataframes
 |   |__ dataframe con los datos de las pruebas de speedtest realizadas
 |__ Notebook
 |   |__ Main.ipynb
